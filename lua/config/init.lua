@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 require("config.lazy")
-require("config.remap")
-require("config.config")
+require("config.remaps")
+require("config.base")

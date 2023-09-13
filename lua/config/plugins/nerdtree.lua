@@ -1,4 +1,4 @@
-return{
+return {
 	  "preservim/nerdtree",
 	  name = "NerdTree"
-  }
+}

@@ -1,4 +1,4 @@
-require("zaku.remap")
+require("config.remap")
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

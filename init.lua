@@ -1,1 +1,1 @@
-require("zaku")
+require("config")

@@ -38,6 +38,26 @@ require("lazy").setup({
 		vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 	end
   },
+  {
+	"nvim-treesitter/nvim-treesitter",
+	name = "Treesitter",
+	config = function()
+		vim.cmd([[TSUpdate]])
+	end
+
+  },
+  {
+	"tpope/vim-fugitive",
+	name = "Fugitive"
+  },
+  {
+	"mbbill/undotree",
+	name = "UndoTree"
+  }--,
+--  {
+--	  "preservim/nerdtree",
+--	  name = "NerdTree"
+-- }
 })
 
 

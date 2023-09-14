@@ -19,3 +19,10 @@ vim.keymap.set('n', '<leader>w', '<cmd>write<cr>',{desc = 'save file'})
 
 -- quit (:q)
 vim.keymap.set("n", "<leader>q", "<cmd>quit<cr>", {desc = "quit file"})
+
+
+-- window nav
+vim.keymap.set("n", "<leader>h", "<cmd>wincmd h<cr>", {desc = "focus on window to the left"})
+vim.keymap.set("n", "<leader>j", "<cmd>wincmd j<cr>", {desc = "focus on window to the bottom"})
+vim.keymap.set("n", "<leader>k", "<cmd>wincmd k<cr>", {desc = "focus on window to the top"})
+vim.keymap.set("n", "<leader>l", "<cmd>wincmd l<cr>", {desc = "focus on window to the right"})

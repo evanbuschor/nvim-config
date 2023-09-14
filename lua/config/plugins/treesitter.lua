@@ -4,5 +4,4 @@ return {
 	config = function()
 		vim.cmd([[TSUpdate]])
 	end
-
-  }
+ }

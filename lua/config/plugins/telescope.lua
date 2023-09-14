@@ -27,7 +27,8 @@ return {
 		telescope.load_extension("fzf")
 
 		vim.keymap.set('n', '<leader>ff', builtin.find_files, {desc = "Fuzzy find files in CWD"})
-		vim.keymap.set('n', '<leader>fg', builtin.live_grep, {desc = "Fuzzy find string using grep"})
-		vim.keymap.set('n', '<leader>fr', builtin.oldfiles, {desc = "Fussy find recent files"})
+		vim.keymap.set('n', '<leader>fg', builtin.git_files, {desc = "Fuzzy find string in git repo"})
+		vim.keymap.set('n', '<leader>fs', builtin.live_grep, {desc = "Fuzzy find string using grep"})
+		vim.keymap.set('n', '<leader>fo', builtin.oldfiles, {desc = "Fussy find recent files"})
 	end
 }
